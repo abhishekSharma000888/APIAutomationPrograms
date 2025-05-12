@@ -1,4 +1,4 @@
-package org.example;
+package ex_01_RA_basic;
 
 /**
  * Hello world!
