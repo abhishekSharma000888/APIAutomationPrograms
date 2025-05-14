@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationPrograms">
-    <classes><class name="ex_03_TestNG_AllureReport.APITesting_Lab06_TestNG_AllureReport">
-        <methods><include name="test_GET_POSITIVE_TC1"/><include name="test_GET_NEGATIVE_TC2"/>
-            <include name="test_GET_NEGATIVE_TC3"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationPrograms/src/test/java/ex_01_RestAssuredTask/TaskRestAssuredAllureReport.java"><classes><class name="ex_01_RestAssuredTask.TaskRestAssuredAllureReport"><methods><include name="test_Post_token"/><include name="test_post_create_booking"/><include name="test_get_booking"/><include name="test_update_booking_put"/><include name="test_partial_updated_patch"/><include name="test_delete"/></methods></class></classes></test></suite>
