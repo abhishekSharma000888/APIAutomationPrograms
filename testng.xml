@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationPrograms/src/test/java/ex_01_RestAssuredTask/TaskRestAssuredAllureReport.java"><classes><class name="ex_01_RestAssuredTask.TaskRestAssuredAllureReport"><methods><include name="test_Post_token"/><include name="test_post_create_booking"/><include name="test_get_booking"/><include name="test_update_booking_put"/><include name="test_partial_updated_patch"/><include name="test_delete"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationPrograms">
+    <classes><class name="ex_01_RestAssuredTask.TaskRestAssuredAllureReport">
+        <methods><include name="test_Post_token"/>
+            <include name="test_post_create_booking"/>
+            <include name="test_get_booking"/>
+            <include name="test_update_booking_put"/>
+            <include name="test_partial_updated_patch"/>
+            <include name="test_delete"/>
+        </methods></class><class name="ex_03_TestNG_AllureReport.APITesting_Lab06_TestNG_AllureReport">
+        <methods><include name="test_GET_POSITIVE_TC1"/><include name="test_GET_NEGATIVE_TC2"/>
+            <include name="test_GET_NEGATIVE_TC3"/>
+        </methods></class><class name="ex_04_RestAssured_HttpMethods.DELETE.APITesting013_DELETE_NONBddStyle">
+        <methods><include name="test_delete_non_bdd"/>
+        </methods></class><class name="ex_04_RestAssured_HttpMethods.GET.APITesting08_BDDStyle">
+        <methods><include name="test_GET_Positive"/></methods></class>
+        <class name="ex_04_RestAssured_HttpMethods.GET.APITesting08_NonBDDStyle">
+            <methods><include name="test_GET_NonBDD"/><include name="test_GET_NonBDD_Neagtive"/>
+            </methods></class><class name="ex_04_RestAssured_HttpMethods.PATCH.APITesting012_PATCH_NONBddStyle">
+            <methods><include name="test_patch_non_bdd"/></methods>
+        </class><class name="ex_04_RestAssured_HttpMethods.POST.APITesting010_POST_NonBDDStyle">
+            <methods><include name="test_POST_NonBDDStyle_Create_Token"/></methods>
+        </class><class name="ex_04_RestAssured_HttpMethods.POST.APITesting011_POST_BDDStyle"><methods>
+            <include name="test_POST_Auth"/></methods></class><class name="ex_04_RestAssured_HttpMethods.PUT.APITesting012_PUT_NONBddStyle">
+            <methods><include name="test_put_non_bdd"/></methods>
+        </class><class name="ex_05_TestNGExamples.APITesting014"><methods><include name="test_post_request2"/></methods></class><class name="ex_05_TestNGExamples.APITesting015_BeforeTest"><methods><include name="test_PUT"/></methods></class><class name="ex_05_TestNGExamples.APITesting016_TestNG_Priority"><methods><include name="t1"/><include name="t2"/><include name="t3"/><include name="t4"/></methods></class><class name="ex_05_TestNGExamples.APITesting018_TestNG_DependsOnMethod"><methods><include name="serverStartedOk"/><include name="test1"/><include name="test2"/></methods></class><class name="ex_05_TestNGExamples.APITesting019_TestNG_Parameter"><methods><include name="demo1"/></methods></class><class name="ex_05_TestNGExamples.APITesting020_TestNG_Enabled"><methods><include name="test01"/><include name="test02"/><include name="test03"/></methods></class><class name="ex_05_TestNGExamples.APITesting021_TestNG_AlwaysRun"><methods><include name="test_new_register"/><include name="test_loginPage"/><include name="test_normal"/></methods></class><class name="ex_05_TestNGExamples.APITesting022_TestNG_invocationCount"><methods><include name="test01"/><include name="test02"/><include name="test03"/></methods></class><class name="ex_05_TestNGExamples.APITesting023_All_Annotations"><methods><include name="demo5"/></methods></class><class name="ex_05_TestNGExamples.APITesting024_All_Annotations"><methods><include name="demo5"/></methods></class><class name="ex_06_TestAssertions.APITesting025_RestAsssured_Assertions"><methods><include name="test_createBooking_POST"/></methods></class><class name="ex_06_TestAssertions.APITesting026_TestNG_Assertions"><methods><include name="test_hardAssertExample"/><include name="test_softAssertExample"/></methods></class><class name="ex_06_TestAssertions.APITesting027_RestAssured_TestNG_AssertJ_Assertions"><methods><include name="test_POST"/></methods></class></classes></test></suite>
